@@ -8,6 +8,17 @@ ul {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -20,14 +31,42 @@ button {
   cursor: pointer;
 }
 
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon-logo {
+  margin-right: 16px;
+}
+
 .header-link {
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93;
   color: #173a56;
+  margin-right: 237px;
 }
 
-.header-nav-link-product {
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+
+.header-nav-item {
+}
+
+.header-nav-link.product {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.75;
@@ -38,6 +77,14 @@ button {
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+  padding: 26px 0;
+}
+
+.header-auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  margin-left: auto;
 }
 
 .sign-in-button {
@@ -45,19 +92,28 @@ button {
   font-size: 16px;
   text-align: center;
   color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
 }
 
 .sign-up-button {
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-  background: #02897a;
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
 }
 
 .hero-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
+  margin-top: 112px;
 }
 
 .hero-text {
