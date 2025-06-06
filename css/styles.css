@@ -6,6 +6,9 @@ body {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 h1,
@@ -31,10 +34,27 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /**------- HEADER -------*/
@@ -157,6 +177,7 @@ button {
 .hero-btn-video-icon {
   border-radius: 2px;
   fill: #02897a;
+  padding-right: 9px;
 }
 
 .hero-btn-video {
@@ -226,9 +247,27 @@ button {
 
 /**------- BENEFIT -------*/
 
+.benefits-title {}
+
+.benefit-item {
+  display: flex;
+  padding: 50px 0;
+}
+
+.benefit-text-container {
+  max-width: 486px;
+  margin-right: 84px;
+}
+
+.benefit-text-container-right{
+  margin-left: 84px;
+}
+
 .benefit-heading {
   font-weight: 600;
   font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 
 .benefit-heading-bold {
@@ -239,12 +278,18 @@ button {
 .benefit-description {
   font-size: 16px;
   line-height: 1.63;
+  margin-bottom: 30px;
+}
+
+.benefit-subitem {
+  margin-top: 25px;
 }
 
 .subitem-title {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.63;
+  margin-bottom: 12px;
 }
 
 .subitem-description {
@@ -253,9 +298,22 @@ button {
 }
 
 .benefit-subitem-assurances {
+  display: flex;
   font-size: 16px;
   line-height: 1.63;
 }
+
+.benefit-subitem-assurances-icon {
+  fill: #2f281e;
+}
+
+.benefit-subitem-assurances-icon-container {
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+}
+
+/**-------process-section-------*/
 
 .process-title {
   font-weight: 700;
