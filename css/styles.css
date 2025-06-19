@@ -422,20 +422,48 @@ img {
 
 /**-------CONTENT-STRSTEGY-SECTION-------*/
 
+.content-strategy-section {
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
+
 .content-strategy-title {
   font-weight: 700;
   font-size: 34px;
+  margin-bottom: 10px;
 }
 
 .content-strategy-description {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  max-width: 465px;
+  margin-bottom: 40px;
+}
+
+.content-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.content-card {
+  max-width: 350px;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+}
+
+.content-card-image {
+  border-radius: 8px 8px 0 0;
+}
+
+.content-card-text {
+  padding: 24px 27px 40px;
 }
 
 .content-card-meta {
   font-size: 16px;
   line-height: 1.75;
+  margin-bottom: 12px;
 }
 
 .content-card-meta-span {
@@ -446,11 +474,116 @@ img {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.67;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.content-card-title-green {
+.content-card-title:hover,
+.content-card-title:focus {
+  color: #02897a;
+}
+
+/**-------PRICING-SECTION-------*/
+
+
+.pricing-section {
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+
+.pricing-container {
+}
+.container {
+}
+.pricing-title {
+  width: 192px;
+  margin: 0 auto 10px;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.pricing-subtitle {
+  width: 213px;
+  margin: 0 auto 40px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.pricing-list {
+  display: flex;
+  gap: 72px;
+}
+
+.pricing-item {
+  width: 322px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 32px 0;
+}
+
+.pricing-plan-title {
+  display: inline;
+  margin: 0 auto 8px;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.67;
+}
+
+.pricing-plan-description {
+  width: 177px;
+  margin: 0 auto 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+}
+
+.pricing-cost {
+  width: 157px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-amount {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  text-align: center;
   color: #02897a;
+}
+
+.pricing-currency {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.pricing-duration {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.pricing-features {
+}
+.pricing-feature {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+}
+.pricing-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
 }
