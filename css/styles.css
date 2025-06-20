@@ -39,7 +39,7 @@ img {
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -490,10 +490,6 @@ img {
   padding-bottom: 50px;
 }
 
-.pricing-container {
-}
-.container {
-}
 .pricing-title {
   width: 192px;
   margin: 0 auto 10px;
@@ -631,4 +627,119 @@ img {
   border: none;
   border-radius: 8px;
   background-color: #02897a;
+}
+
+
+/**-------TESTIMONIALS-SECTION-------*/
+
+
+.testimonials-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.testimonials-title {
+  max-width: 286px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  margin: 0 auto 10px;
+}
+
+.testimonials-description {
+  max-width: 537px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.testimonials-list {
+  display: flex;
+  gap: 65px;
+}
+
+.testimonial-card {
+  width: 327px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+}
+
+.testimonial-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.testimonial-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+}
+
+.testimonial-card-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.testimonial-card-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.testimonial-card-role {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;  
+}
+
+
+/**-------PROMO-SECTION-------*/
+
+.promo-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.promo-container {
+  display: flex;
+  max-width: 968px;
+  margin: 0 auto;
+  background: #02897a;
+  border-radius: 32px;
+  padding-left: 51px;
+}
+
+.promo-subtitle {
+  max-width: 510px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  padding-top: 49px;
+  margin-bottom: 46px;
+  margin-right: 10px;
+}
+
+.promo-button {
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  margin-bottom: 56px;
 }
